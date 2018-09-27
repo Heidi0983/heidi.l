@@ -1,203 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Homepage</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/home.css">
-		<style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="js/nav/css/reset.css">
+    <link rel="stylesheet" href="js/nav/css/style.css">
+    <title>PORTFOLIO</title>
+    <style>
 .logo a:hover,
-.hamburger,
-.hamburger1 span,
-.wrap ul li a:hover,
-.control-buttons li,
-.slider-wrapper li a{
+.cd-primary-nav ul li a:hover,
+.nav-trigger,
+.diamond-inner a:hover,
+.down a
+{
 	cursor: url(images/mouse_pointer_5b711e9ce905b9.8875770715341400609545.cur),pointer;
 }
-		</style>
-  </head>
-  <body>
-    <!-- header -->
-    <header id="header" class="header col-sm-12 col-sm-12 col-lg-12 col-md-12">
-              <div class="logo">
-             <a href="home.html"> <img src="images/logo .svg" alt="logo" width="40" height="40" ></a>
-              </div>
-             <div class="hamburger1 hamburger">
-              <span></span>
-              <span class="short" style="width: 50%;"></span>
-              <span ></span>
-            </div>
-            </nav>
-            <div class="overlay" id="overlay">
-              <div class="wrap">
-                <ul class="wrap-nav" >
-                  <li><a href="#">Home</a></li>
-                  <li><a href="about.html">About</a> </li>
-                  <li><a href="work.html">Work</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-    </header>
+    </style>
+</head>
+<body>
+    <header class="cd-auto-hide-header">
+      <div class="logo"><a href="#"><img src="images/logo .svg" alt="logo" width="40"></a></div>
+        
+      <nav class="cd-primary-nav">
+           <a href="#cd-navigation" class="nav-trigger">
+                  <span>
+                    <em aria-hidden="true"></em>     
+                  </span>
+                 </a> <!-- .nav-trigger -->
 
-      <!-- ==================================== 
-	Contenedor Slider 
-  =======================================-->
-  <section class="content">
-  <section class="main col-md-7 col-lg-7 col-sm-12 col-xs-12" style="float: left;">
-      
-	<section id="slider" class="container" style="padding: 0">
-      <!-- =======slider =======-->
-		<ul class="slider-wrapper">
-		<li class="current-slide">
-			<a href="rainbow.html"> <img src="images/page17.svg" title="" alt=""></a>
+              <ul id="cd-navigation">
+                <li><a href="about.html">About</a> </li>
+               <li><a href="work.html">Work</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav> <!-- .cd-primary-nav -->
+     </header> <!-- .cd-auto-hide-header -->
 
-		</li>
-
-		<li>
-			<a href="lab.html"><img src="images/pink100.svg" title="" alt=""></a> 
-
-		</li>
-
-		<li>
-			<a href="book.html"> <img src="images/page8.svg" title="" alt=""></a>
-		</li>
-
-		<li>
-			<a href="flower.html"> <img src="images/page12.svg" title="" alt=""></a>
-
-		
-		</li>
-		</ul>
-		
-		<!-- Controles Navegacion -->
-        <ul id="control-buttons" class="control-buttons "></ul>
-    </section>
-  </section>
-     <!-- right content -->
-     <section class="right_word col-md-5 col-lg-5 col-sm-12" >
-        <p>Hello</p>
-       <h1>
-       I'M <br> Heidi Lee, <br>a junior web designer.
-       <br>There are some of my <br>projects.
-       </h1>
+        <div class="word"><p> PROFESSIONAL WEB DESIGN AND GRAPHIC DESIGN</p></div>
+     <section class="right_word " >
+         <p>Hello</p>
+         <h1>
+          I'M <br> Heidi Lee, <br>a junior web designer.
+         <br>There are some of my projects.
+         </h1>
      </section>
-    </section>
 
-    <footer style="clear: both;">
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/hamburger.js"></script>
-  <script>
-// slider
-$(function() {
-	/** -----------------------------------------
-	 * Modulo del Slider 
-	 -------------------------------------------*/
-	 var SliderModule = (function() {
-	 	var pb = {};
-	 	pb.el = $('#slider');
-	 	pb.items = {
-	 		panels: pb.el.find('.slider-wrapper > li'),
-	 	}
+    <div class="down"> <a href="index.html#wrapper"><i class="fa fa-angle-down arrow"></i></a> </div>
 
-	 	// Interval del Slider
-	 	var SliderInterval,
-	 		currentSlider = 0,
-	 		nextSlider = 1,
-	 		lengthSlider = pb.items.panels.length;
+ <section class="wrapper"  id="wrapper">
+    <div class="diamond-container">
+        <div class="diamond-outer">
+          <div class="diamond-inner label-1"><a href=""><img src="images/web_cactus.png" width="315" alt=""></a></div>
+        </div>
+        <div class="diamond-outer">
+          <div class="diamond-inner label-2"><a href=""><img src="images/web_cactus.png" width="315" alt=""></a></div>
+        </div>
+        <div class="diamond-outer">
+          <div class="diamond-inner label-3"><a href=""><img src="images/web_cactus.png" width="315" alt=""></a></div>
+        </div>
+        <div class="diamond-outer">
+            <div class="diamond-inner label-4"><a href=""><img src="images/web_cactus.png" width="315" alt=""></a></div>
+          </div>
+          <div class="diamond-outer">
+            <div class="diamond-inner label-5"><a href=""><img src="images/web_cactus.png" width="315" alt=""></a></div>
+          </div>
+        <div class="diamond-outer">
+          <div class="diamond-inner label-6"><a href=""><img src="images/web_cactus.png" width="315" alt=""></a></div>
+        </div>
+      </div>
+ </section>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/nav/js/main.js"></script>
+ <script>
+var arrowBounce = function() {
+  var arrow = $(".arrow");
+  
+  if (arrow.hasClass("lift")) {
+    arrow.removeClass("lift");
+  } else {
+    arrow.addClass("lift");
+  }
+};
 
-	 	// Constructor del Slider
-	 	pb.init = function(settings) {
-	 		this.settings = settings || {duration: 8000};
-	 		var items = this.items,
-	 			lengthPanels = items.panels.length,
-	 			output = '';
+// run the arrowBounce function every 800ms
+setInterval(arrowBounce, 800);
 
-	 		// Insertamos nuestros botones
-	 		for(var i = 0; i < lengthPanels; i++) {
-	 			if(i == 0) {
-	 				output += '<li class="active"></li>';
-	 			} else {
-	 				output += '<li></li>';
-	 			}
-	 		}
-
-	 		$('#control-buttons').html(output);
-
-	 		// Activamos nuestro Slider
-	 		activateSlider();
-	 		// Eventos para los controles
-	 		$('#control-buttons').on('click', 'li', function(e) {
-	 			var $this = $(this);
-	 			if(!(currentSlider === $this.index())) {
-	 				changePanel($this.index());
-	 			}
-	 		});
-
-	 	}
-
-	 	// Funcion para activar el Slider
-	 	var activateSlider = function() {
-	 		SliderInterval = setInterval(pb.startSlider, pb.settings.duration);
-	 	}
-
-	 	// Funcion para la Animacion
-	 	pb.startSlider = function() {
-	 		var items = pb.items,
-	 			controls = $('#control-buttons li');
-	 		// Comprobamos si es el ultimo panel para reiniciar el conteo
-	 		if(nextSlider >= lengthSlider) {
-	 			nextSlider = 0;
-	 			currentSlider = lengthSlider-1;
-	 		}
-
-	 		controls.removeClass('active').eq(nextSlider).addClass('active');
-	 		items.panels.eq(currentSlider).fadeOut('slow');
-	 		items.panels.eq(nextSlider).fadeIn('slow');
-
-	 		// Actualizamos los datos del slider
-	 		currentSlider = nextSlider;
-	 		nextSlider += 1;
-	 	}
-
-	 	// Funcion para Cambiar de Panel con Los Controles
-	 	var changePanel = function(id) {
-	 		clearInterval(SliderInterval);
-	 		var items = pb.items,
-	 			controls = $('#control-buttons li');
-	 		// Comprobamos si el ID esta disponible entre los paneles
-	 		if(id >= lengthSlider) {
-	 			id = 0;
-	 		} else if(id < 0) {
-	 			id = lengthSlider-1;
-	 		}
-
-	 		controls.removeClass('active').eq(id).addClass('active');
-	 		items.panels.eq(currentSlider).fadeOut('slow');
-	 		items.panels.eq(id).fadeIn('slow');
-
-	 		// Volvemos a actualizar los datos del slider
-	 		currentSlider = id;
-	 		nextSlider = id+1;
-	 		// Reactivamos nuestro slider
-	 		activateSlider();
-	 	}
-
-		return pb;
-	 }());
-
-	 SliderModule.init({duration: 4000});
-
-});
-  </script>
+ </script>
 </body>
 </html>
