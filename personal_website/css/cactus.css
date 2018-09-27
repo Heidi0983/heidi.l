@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  body{
+      background: #fbfffb;
+      color: rgb(58, 82, 74);
+  }
+  
+ header{
+      width: 100vw;
+    height: 800px;
+  }
+  .back{
+      position: absolute;
+      z-index: -10;
+      width: 100vw;
+      height: 500px;
+      background: rgb(224, 241, 230);
+      -webkit-clip-path: polygon(50% 0%, 100% 0, 78% 24%, 63% 9%, 53% 40%, 44% 43%, 27% 73%, 0 26%, 0 0);
+      clip-path: polygon(50% 0%, 100% 0, 78% 24%, 63% 9%, 53% 40%, 44% 43%, 27% 73%, 0 26%, 0 0);
+  }
+  .content,.product{
+      display: flex;
+      justify-content: center;
+  }
+  .img{
+      width: 450px;
+      margin-top: 80px;
+  }
+  .img img{
+      width: 430px;
+  }
+  .nav{
+      width: 460px;
+      margin-top: 300px;
+  }
+  .nav img{
+      width: 250px;
+      margin-bottom: 30px;
+      margin-left: 105px;
+  }
+  .nav a{
+      text-decoration: none;
+  }
+  .nav ul li{
+      display: inherit;
+      margin: 18px;
+      color: rgb(58, 82, 74);
+      font-size: 19px;
+  }
+  /* ---------------------------------------------- */
+  .bg {
+    display: flex;
+    justify-content: center;
+  clip-path: polygon(65% 5%, 100% 10%, 100% 90%, 35% 95%, 0 90%, 0 10%);
+  height: 800px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+1,cfe2d6+100 */
+background: rgb(247,247,247); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(247,247,247,1) 1%, rgba(207,226,214,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(247,247,247,1) 1%,rgba(207,226,214,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(247,247,247,1) 1%,rgba(207,226,214,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#cfe2d6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+  .container{
+    color: rgb(87, 99, 95);
+    width:480px;
+    padding-top: 150px;
+    margin: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    column-gap: 30px;
+  }
+  @media only screen and (max-width: 825px) {
+      .bg{
+          height: 1500px;
+          display: flex;
+          flex-direction: column;
+      }
+      .content{
+          display: flex;
+          flex-direction:column-reverse;
+      }
+      .img{
+          width: 320px;
+         margin: 0 auto;
+      }
+      .img img{
+       width: 320px;
+       margin-top: 20px;
+      }
+      .nav{
+          width: 320px;
+          margin: 0 auto;
+          margin-top: 100px;
+      }
+      .nav img{
+          width: 250px;
+          margin-left:35px;
+      }
+      .nav ul li{
+       display: inherit;
+       margin: 13px;
+       line-height: 40px;
+    }
+    .container{
+        width:320px;
+        padding-top:30px;
+        margin: 0 auto;
+        font-size: 14px;
+        line-height: 25px;
+      }
+  }

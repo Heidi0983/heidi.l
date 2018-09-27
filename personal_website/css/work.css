@@ -1,0 +1,216 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f4f4f4;
+    font-family:  "Fixedsys", sans-serif;
+	font-size: 62.5%;
+}
+
+/** ---------------------------------------
+ * header 
+ ----------------------------------------*/
+ 
+ #header {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+}
+.logo{
+    float: left;
+    margin: 30px 0 0 80px;
+}
+.hamburger1{
+    float: right;
+    margin: 30px 90px 0 0;
+}
+
+.header ul {
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+}
+.header li {
+	padding:0;
+	margin:0;
+}
+.header nav {
+	text-align:center;
+	width:100%;
+	position:relative;
+	height:auto;
+	overflow:hidden;
+	background:none;
+}
+.header nav ul {
+	text-align:center;
+}
+.header nav ul li {
+	display:inline-block;
+  flex-direction: column;
+}
+
+/*styling open close button*/
+.hamburger {
+  width: 30px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+}
+.hamburger span {
+  background:#C4A243;
+  display: block;
+  position: absolute;
+  height: 2px;
+  border-radius: 10%; 
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all .25s cubic-bezier(0.22, 0.61, 0.36, 1);
+  -moz-transition: all .25s cubic-bezier(0.22, 0.61, 0.36, 1);
+  -o-transition: all .25s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition: all .25s cubic-bezier(0.22, 0.61, 0.36, 1);
+  opacity: 1;
+  width: 100%;
+  left: 0;
+}
+.hamburger span:nth-child(1) {
+  top: 0px;
+}
+.hamburger span:nth-child(2) {
+  top: 12px;
+}
+.hamburger span:nth-child(3) {
+  top: 24px;
+}
+.hamburger.open span:nth-child(1) {
+  top: 12px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+.hamburger.open span:nth-child(3) {
+  top: 12px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+/*overlay*/
+.overlay {
+	display:none;
+	position:fixed;
+	top:0;
+	height:100%;
+	width:100%;
+  background:#262842;
+	overflow:auto;
+	z-index:99;
+}
+.wrap {
+	text-align:center;
+	max-width:90%;
+	margin:0 auto;
+}
+
+.wrap ul li a:hover {
+	color:#e9d4d1;
+  opacity: 0.6;
+}
+.wrap  ul {
+  text-transform:capitalize;
+	padding:150px 0px 100px;
+}
+.wrap ul li {
+  vertical-align: middle;
+  text-align: center;
+  width:100%;
+  font-family: 'Palatino', 'URW Palladio L', serif;
+  margin: 0 auto;
+  list-style: none;
+}
+.wrap  ul li a {
+	color:#e9d4d1;
+  font-size:30px;
+  line-height: 90px;
+  vertical-align: middle;
+  text-align: center;
+	text-decoration:none;
+	transition-property:all .2s linear 0s;
+}
+.card-pic{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+justify-content: center;
+    border-radius: 0;
+    transition: .2s cubic-bezier(.5,.01,.84,1.96);
+    /* transition-delay: 1s; */
+}
+.card-pic:hover{
+    /* transform: translate(10px, 20px); */
+            /* border-radius: 50%; */
+            transform: scale(1.07);
+}
+.card-body{
+  padding:0;
+  border-radius: 0;
+}
+.card{
+width: 580px;
+}
+/* ---------------------------------------------- */
+@media screen and (max-width:48em) {
+	.wrap ul.wrap-nav>li {
+		width:100%;
+		padding:20px 0;
+	}
+	.wrap ul.wrap-nav {
+		padding:30px 0px 0px;
+	}
+	nav ul {
+		opacity:0;
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width: 825px) {
+    .logo{
+        float: left;
+        margin: 30px 0 0 40px;
+    }    
+    .hamburger1{
+        float: right;
+        margin: 30px 50px 0 0;
+    }
+    .card{
+      width:400px;
+      }
+ }
+ @media only screen and (max-width: 500px) {
+  .logo{
+      float: left;
+      margin: 30px 0 0 40px;
+  }    
+  .hamburger1{
+      float: right;
+      margin: 30px 50px 0 0;
+  }
+  .card{
+    width:250px;
+    }
+
+}

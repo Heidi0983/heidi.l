@@ -1,0 +1,248 @@
+body{
+    background: #f5e5e3;
+    font-family:  "Fixedsys", sans-serif;
+  font-size: 62.5%;
+}
+.word{
+    display: none;
+}
+.right_word{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+     width: 320px;
+     margin-top: 150px;
+   }
+   .right_word p{
+    font-size: 12px;
+    font-family:  "Fixedsys", sans-serif;
+  }
+  .right_word h1{
+    font-family: 'Palatino', 'URW Palladio L', serif;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #1c1c1d;;
+  }
+  /* ----------arrow--------------------------- */
+.down i{
+  background: #1c1c1d;
+  -webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 50% 70%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 50% 70%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+  .arrow {
+    white-space: nowrap;
+    font-size: 4rem;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    transform: translateY(0);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 750ms ease-in-out;
+    -ms-transition: all 750ms ease-in-out;
+    -o-transition: all 750ms ease-in-out;
+    transition: all 750ms ease-in-out;
+  }
+  
+  /* this sets the position of the arrow when it's up, so it will move up or down by 14px when you add or remove this class */
+  .lift {
+    transform: translateY(14px);
+  }
+/* ------------------------------------- */
+.diamond-container {
+  position: relative;
+  height: 690px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  transition: 0.5s ease;
+  display: flex;
+}
+
+.diamond-outer {
+  position: absolute;
+  box-sizing: border-box;
+  height: 222px;
+  width: 222px;
+  overflow: hidden;
+  transform: rotate(45deg);
+}
+
+.diamond-outer:nth-child(1) {
+  top: 55px;
+  left: 222px;
+}
+.diamond-outer:nth-child(2) {
+  top: 55px;
+  left: 556px;
+}
+.diamond-outer:nth-child(3) {
+  top: 222px;
+  left: 55px;
+}
+.diamond-outer:nth-child(4) {
+  top: 222px;
+  left: 389px;
+}
+.diamond-outer:nth-child(5) {
+  top: 222px;
+  left: 723px;
+}
+.diamond-outer:nth-child(6) {
+  top: 389px;
+  left: 222px;
+}
+.diamond-outer:nth-child(7) {
+  top: 389px;
+  left: 556px;
+}
+.diamond-inner {
+  position: absolute;
+  height: 314px;
+  width: 314px;
+  top: -46px;
+  left: -46px;
+  background: #1c1c1dc4;
+  transform: rotate(-45deg);
+  transition: 0.3s ease;
+  background-size: cover !important;
+}
+
+.diamond-inner a:hover {
+  transition: 0.3s ease;
+  filter: brightness(0.5);
+}
+
+
+@media screen and (max-width: 1023px) {
+  .wrapper{
+    margin: 0 auto;
+    margin-top: 230px;
+  }
+  .diamond-container {
+    max-width: 501px;
+    height: 1350px;
+  }
+  .diamond-container::before {
+    left: 50%;
+    font-size: 28px;
+    opacity: 1;
+  }
+  .diamond-outer:nth-child(1) {
+    top: 55px;
+    left: 55px;
+  }
+  .diamond-outer:nth-child(2) {
+    top: 222px;
+    left: 222px;
+  }
+  .diamond-outer:nth-child(3) {
+    top: 389px;
+    left: 55px;
+  }
+  .diamond-outer:nth-child(4) {
+    top: 556px;
+    left: 222px;
+  }
+  .diamond-outer:nth-child(5) {
+    top: 723px;
+    left: 55px;
+  }
+  .diamond-outer:nth-child(6) {
+    top: 890px;
+    left: 222px;
+  }
+  .diamond-outer:nth-child(7) {
+    top: 1057px;
+    left: 55px;
+  }
+  .right_word h1{
+    font-family: 'Palatino', 'URW Palladio L', serif;
+    font-size: 35px;
+    line-height: 65px;
+    font-weight: bold;
+    color: #1c1c1d;;
+  }
+}
+@media screen and (max-width: 525px) {
+  .diamond-container {
+    max-width: 314px;
+    height: 2265px;
+  }
+  .diamond-outer:nth-child(1) {
+    top: 55px;
+    left: 45px;
+  }
+  .diamond-outer:nth-child(2) {
+    top: 374px;
+    left: 45px;
+  }
+  .diamond-outer:nth-child(3) {
+    top: 693px;
+    left: 45px;
+  }
+  .diamond-outer:nth-child(4) {
+    top: 1012px;
+    left: 45px;
+  }
+  .diamond-outer:nth-child(5) {
+    top: 1331px;
+    left: 45px;
+  }
+  .diamond-outer:nth-child(6) {
+    top: 1650px;
+    left: 45px;
+  }
+  .diamond-outer:nth-child(7) {
+    top: 1969px;
+    left: 45px;
+  }
+  .down {
+    position: relative;
+    margin-top: 100px;
+  }
+}
+
+  /* ----------------------------------- */
+@media only screen and (min-width: 1024px) {
+    .word{
+        position: absolute;
+        z-index: -10;
+        width: 50px;
+        margin-left: 80px;
+        margin-top: 260px;
+        display: block;
+        letter-spacing:2.5px;
+        font-size: 10px;
+        font-family:  "Fixedsys", sans-serif;
+        color: #221d66;
+        -webkit-writing-mode: vertical-lr;
+    }
+.right_word{
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+    width: 650px;
+    margin-top: 200px;
+  }
+  .right_word p{
+   font-size: 15px;
+   font-family:  "Fixedsys", sans-serif;
+ }
+ .right_word h1{
+   font-family: 'Palatino', 'URW Palladio L', serif;
+   font-size: 45px;
+   line-height: 65px;
+   font-weight: bold;
+   color: #1c1c1d;;
+ }
+ .wrapper{
+  margin: 0 auto;
+  margin-top: 300px;
+}
+
+}

@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f5e5e3;
+    font-family:  "Fixedsys", sans-serif;
+    border: 6px solid #221d66;
+    height: 100vh;
+  font-size: 62.5%;
+
+}
+
+
+
+
+@media screen and (max-width:48em) {
+	.wrap ul.wrap-nav>li {
+		width:100%;
+		padding:20px 0;
+	}
+	.wrap ul.wrap-nav {
+		padding:30px 0px 0px;
+	}
+	nav ul {
+		opacity:0;
+		visibility:hidden;
+	}
+}
+ /* -----right word------ */
+ .right_word{
+   padding:0 10px;
+   width: 50%;
+   float: right;
+   right: 5%; 
+   margin-top: 5%;
+ }
+ .right_word p{
+  font-size: 15px;
+}
+.right_word h1{
+  font-family: 'Palatino', 'URW Palladio L', serif;
+  font-size: 45px;
+  line-height: 65px;
+  font-weight: bold;
+  color: #1c1c1d;
+}
+
+.main{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+/** ---------------------------------------
+ * Slider 
+ ----------------------------------------*/
+ .main{
+   width: 50%;
+ }
+.container {
+  width: 80%;
+	margin: 0 auto;
+    float: left;
+}
+
+
+/*------------------------------
+more detail-----------------  */
+
+
+
+/** ---------------------------------------
+ * Responsive 
+ ----------------------------------------*/
+ @media only screen and (max-width: 825px) {
+   .content{
+     display: flex;
+     flex-direction: column-reverse;
+   }
+ 	.container {
+     margin: 0;
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+ 	}
+   .right_word{
+     width: 100%;
+     right: 0;
+     justify-content: center;
+   }
+   .main{
+     width: 100%;
+   }
+
+ }
+ @media only screen and (max-width:500px) {
+  .right_word{
+    widows: 250px;
+    justify-content: center;
+  }
+  .right_word h1{
+    font-size: 35px;
+  }
+ }
+ @media only screen and (min-width: 1150px) and(max-width: 2000px) {
+ 	.container {
+ 		width: 100%;
+ 	}
+ 	.slider-wrapper {
+ 		width: 95%;
+ 	}
+	
+ 	.slider-wrapper .caption {
+ 		display: none;
+ 	}
+   .control-buttons {
+  left: 75%;
+}
+ }
+
