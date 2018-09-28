@@ -24,6 +24,14 @@ body{
     font-weight: bold;
     color: #1c1c1d;;
   }
+  footer{
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    -webkit-clip-path: polygon(0 85%, 100% 48%, 100% 100%, 0% 100%);
+    clip-path: polygon(0 85%, 100% 48%, 100% 100%, 0% 100%);
+    background:  rgba(255, 198, 198, 0.322);
+  }
   /* ---------------btn---------------------------- */
   .downward{
     margin-top: 90px; 
@@ -146,7 +154,7 @@ body{
 /* ------------------------------------- */
 .diamond-container {
   position: relative;
-  height: 690px;
+  height: 500px;
   width: 100%;
   max-width: 1000px;
   margin: auto;
@@ -223,7 +231,7 @@ body{
   }
   .diamond-container {
     max-width: 501px;
-    height: 1350px;
+    height: 1100px;
   }
   .diamond-container::before {
     left: 50%;
@@ -275,6 +283,7 @@ body{
     width: 200px;
     height: 40px;
    }
+
 }
 @media screen and (max-width: 525px) {
   .wrapper{
@@ -286,7 +295,7 @@ body{
   }
   .diamond-container {
     max-width: 314px;
-    height: 2265px;
+    height:1750px;
   }
   .diamond-outer:nth-child(1) {
     top: 55px;
@@ -310,10 +319,6 @@ body{
   }
   .diamond-outer:nth-child(6) {
     top: 1650px;
-    left: 45px;
-  }
-  .diamond-outer:nth-child(7) {
-    top: 1969px;
     left: 45px;
   }
   .down {
