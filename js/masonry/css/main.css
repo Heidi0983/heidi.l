@@ -41,6 +41,9 @@ img{
 .wrapper{
   padding: 40px 0;
 }
+.card:hover{
+  transform: scale(1.05);
+}
 .card{
   background: #fff;
   border-radius: 6px;
