@@ -16,13 +16,14 @@ body{
    .right_word p{
     font-size: 12px;
     font-family:  "Fixedsys", sans-serif;
+    color: #221d66;
   }
   .right_word h1{
     font-family: 'Palatino', 'URW Palladio L', serif;
     font-size: 30px;
     line-height: 50px;
     font-weight: bold;
-    color: #1c1c1d;;
+    color: #221d66;
   }
   footer{
     bottom: 0;
@@ -65,7 +66,7 @@ body{
 }
 .b03_skewed_slide_in {
   overflow: hidden;
-  border: #0f0e0e solid 1px;
+  border: #221d66 solid 1px;
 }
 
 .b03_skewed_slide_in div {
@@ -80,7 +81,7 @@ body{
 }
 
 .b03_skewed_slide_in div:nth-child(1) {
-  color: #0f0e0e;
+  color: #221d66;
   background-color: #fdfafa;
 }
 
@@ -126,7 +127,7 @@ body{
   }
  
 .down i{
-  background: #171718;
+  background:#221d66;
   -webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 50% 70%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
   clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 50% 70%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
 }
@@ -205,7 +206,7 @@ body{
   width: 314px;
   top: -46px;
   left: -46px;
-  background: #1c1c1dc4;
+  background: #ffffff;
   transform: rotate(-45deg);
   transition: 0.3s ease;
   background-size: cover !important;
@@ -348,7 +349,7 @@ body{
         letter-spacing:2.5px;
         font-size: 10px;
         font-family:  "Fixedsys", sans-serif;
-        color: #221d66;
+        color: #140f61;
         -webkit-writing-mode: vertical-lr;
     }
 .right_word{
@@ -367,7 +368,6 @@ body{
    font-size: 45px;
    line-height: 65px;
    font-weight: bold;
-   color: #1c1c1d;;
  }
  .wrapper{
   margin: 0 auto;
