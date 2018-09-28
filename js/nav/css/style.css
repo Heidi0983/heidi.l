@@ -15,7 +15,6 @@ body {
   background: #fff9f8;
   font-family: 'Palatino', 'URW Palladio L', serif;
 font-size: 62.5%;
-border: 6px solid #181361;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -64,9 +63,6 @@ a {
     height: 80px;
     margin-top: 50px;
     position: fixed;
-    background: #fff9f8;
-    border-right:6px solid #221d66;
-    border-left:6px solid #221d66;
   }
   .cd-auto-hide-header .logo,
 .cd-primary-nav{
@@ -180,8 +176,6 @@ a {
   width: 100%;
   background-color: #fffcf9;
   display: none;
-  border-left:6px solid #221d66;
-  border-right:6px solid #221d66;
 }
 .cd-primary-nav > ul a {
   /* target primary-nav links */
