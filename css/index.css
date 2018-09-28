@@ -1,5 +1,5 @@
 body{
-    background: #faecea;
+    background: #fff9f8;
     font-family:  "Fixedsys", sans-serif;
   font-size: 62.5%;
 }
@@ -24,9 +24,101 @@ body{
     font-weight: bold;
     color: #1c1c1d;;
   }
+  /* ---------------btn---------------------------- */
+  .downward{
+    margin-top: 90px; 
+  }
+.back:before {
+  position: absolute;
+  padding: 10px;
+}
+.button_base {
+  margin: 0;
+  border: 0;
+  font-size: 18px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -25px;
+  margin-left: -100px;
+  width: 200px;
+  height: 50px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-user-select: none;
+  font-family:  "Fixedsys", sans-serif;
+}
+
+.button_base:hover {
+  cursor: pointer;
+}
+.b03_skewed_slide_in {
+  overflow: hidden;
+  border: #0f0e0e solid 1px;
+}
+
+.b03_skewed_slide_in div {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 10px;
+}
+
+.b03_skewed_slide_in div:nth-child(1) {
+  color: #0f0e0e;
+  background-color: #fdfafa;
+}
+
+.b03_skewed_slide_in div:nth-child(2) {
+  background-color: #0f0e0e;
+  width: 230px;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transform: translate(-250px, 0px) skewX(-30deg);
+  -webkit-transform: translate(-250px, 0px) skewX(-30deg);
+  -moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in div:nth-child(3) {
+  color: #fdfafa;
+  left: -200px;
+  transition: left 0.2s ease;
+  -webkit-transition: left 0.2s ease;
+  -moz-transition: left 0.2s ease;
+}
+
+.b03_skewed_slide_in:hover div:nth-child(2) {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transform: translate(-15px, 0px) skewX(-30deg);
+  -webkit-transform: translate(-15px, 0px) skewX(-30deg);
+  -moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in:hover div:nth-child(3) {
+  left: 0px;
+  transition: left 0.30000000000000004s ease;
+  -webkit-transition: left 0.30000000000000004s ease;
+  -moz-transition: left 0.30000000000000004s ease;
+}
+
   /* ----------arrow--------------------------- */
+  .down{
+    position: relative;
+    margin-top: 100px;
+  }
+ 
 .down i{
-  background: #1c1c1d;
+  background: #171718;
   -webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 50% 70%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
   clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 50% 70%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
 }
@@ -35,11 +127,10 @@ body{
     font-size: 4rem;
     position: absolute;
     right: 0;
-    bottom: 50px;
     left: 0;
     margin: auto;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     transform: translateY(0);
     -webkit-transition: all 500ms ease-in-out;
     -moz-transition: all 750ms ease-in-out;
@@ -121,7 +212,14 @@ body{
 @media screen and (max-width: 1023px) {
   .wrapper{
     margin: 0 auto;
-    margin-top: 230px;
+    margin-top: 200px;
+  }
+  .right_word h1{
+    font-family: 'Palatino', 'URW Palladio L', serif;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #1c1c1d;;
   }
   .diamond-container {
     max-width: 501px;
@@ -167,8 +265,25 @@ body{
     font-weight: bold;
     color: #1c1c1d;;
   }
+  .down{
+    position: relative;
+    margin-top: 50px;
+  
+  }
+   .button_base{
+     line-height: 20px;
+    width: 200px;
+    height: 40px;
+   }
 }
 @media screen and (max-width: 525px) {
+  .wrapper{
+    max-width: 0 auto;
+    margin-top: 150px;
+  }
+  .right_word{
+    margin-top: 100px;
+  }
   .diamond-container {
     max-width: 314px;
     height: 2265px;
@@ -205,6 +320,14 @@ body{
     position: relative;
     margin-top: 100px;
   }
+  .arrow{
+    bottom: 50px;
+  }
+   .button_base{
+     line-height: 20px;
+    width: 200px;
+    height: 40px;
+   }
 }
 
   /* ----------------------------------- */
@@ -213,6 +336,7 @@ body{
         position: absolute;
         z-index: -10;
         width: 50px;
+        height: 450px;;
         margin-left: 80px;
         margin-top: 260px;
         display: block;
@@ -244,5 +368,8 @@ body{
   margin: 0 auto;
   margin-top: 300px;
 }
-
+.down{
+  position: relative;
+  margin-top: 90px;
+}
 }

@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: #faecea;
+  background: #fff9f8;
   font-family: 'Palatino', 'URW Palladio L', serif;
 font-size: 62.5%;
 border: 6px solid #181361;
@@ -64,7 +64,7 @@ a {
     height: 80px;
     margin-top: 50px;
     position: fixed;
-    background: #faecea;
+    background: #fff9f8;
     border-right:6px solid #221d66;
     border-left:6px solid #221d66;
   }
