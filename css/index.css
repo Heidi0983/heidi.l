@@ -2,6 +2,7 @@ body{
     background: #fff9f8;
     font-family:  "Fixedsys", sans-serif;
   font-size: 62.5%;
+  color: #221d66;
 }
 .word{
     display: none;
@@ -225,8 +226,8 @@ body{
   }
   .right_word h1{
     font-family: 'Palatino', 'URW Palladio L', serif;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 35px;
+    line-height: 65px;
     font-weight: bold;
   }
   .diamond-container {
@@ -266,13 +267,7 @@ body{
     top: 1057px;
     left: 55px;
   }
-  .right_word h1{
-    font-family: 'Palatino', 'URW Palladio L', serif;
-    font-size: 35px;
-    line-height: 65px;
-    font-weight: bold;
-    color: #1c1c1d;;
-  }
+
   .down{
     position: relative;
     margin-top: 50px;
