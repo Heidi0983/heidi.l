@@ -94,7 +94,7 @@ a {
   height: 100%;
   padding: 0 1em;
   text-transform: uppercase;
-  color: #25283D;
+  color: #221d66;
   font-weight: bold;
   right: 0;
 }
@@ -109,7 +109,7 @@ a {
   position: relative;
   height: 2px;
   width: 22px;
-  background-color: #25283D;
+  background-color: #221d66;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
