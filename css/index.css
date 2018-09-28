@@ -341,8 +341,8 @@ body{
         position: absolute;
         z-index: -10;
         width: 50px;
+        left: 80px;
         height: 450px;;
-        margin-left: 80px;
         margin-top: 260px;
         display: block;
         letter-spacing:2.5px;
