@@ -12,11 +12,11 @@ html{
   background: #fff9f8;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+
 }
 body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
   margin: 0;
   padding: 0;
 }
@@ -66,17 +66,21 @@ img{
   border-bottom-right-radius: 6px;
 }
 .card__title{
-  font-family: 'Hind';
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.4;
   margin: 0 0 10px;
+  font-family: "STHeiti";
+  font-family:  "Fixedsys", sans-serif;
 }
 .card__text{
   font-size: 1.4rem;
   font-weight: 300;
   margin: 0;
   color: #86888A;
+  font-family: "STHeiti Light";
+  font-family: "SimHei";
+  font-family:  "Fixedsys", sans-serif;
 }
 .card__text--high{
   font-weight: 600;
