@@ -4,7 +4,7 @@ body{
   font-size: 62.5%;
   color: #221d66;
 }
-.word{
+.word,.word2{
     display: none;
 }
 .right_word{
@@ -226,7 +226,7 @@ body{
   }
   .right_word h1{
     font-family: 'Palatino', 'URW Palladio L', serif;
-    font-size: 35px;
+    font-size: 45px;
     line-height: 65px;
     font-weight: bold;
   }
@@ -281,6 +281,9 @@ body{
 
 }
 @media screen and (max-width: 525px) {
+  .word,.word2{
+    display: none;
+  }
   .wrapper{
     max-width: 0 auto;
     margin-top: 150px;
@@ -346,6 +349,16 @@ body{
         color: #140f61;
         -webkit-writing-mode: vertical-lr;
     }
+    .word2{
+      position: absolute;
+      z-index: 3;
+      top: 0;
+      right: 60px;
+      width: 1px;
+      height: 250px;
+      display: block;
+      border-right: 1px solid #140f61a2;   
+  }
 .right_word{
    display: flex;
    flex-direction: column;
