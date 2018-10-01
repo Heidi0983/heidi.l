@@ -34,6 +34,30 @@ body{
     clip-path: polygon(0 85%, 100% 48%, 100% 100%, 0% 100%);
     background:  rgba(255, 216, 198, 0.322);
   }
+  .about_me{
+    margin-top: 150px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+  }
+  .about{
+    width: 650px;
+    font-size: 20px;
+    margin-top: 150px;
+    text-align: center;
+  }
+  .about h1{
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #221d66;
+  }
+  .about p{
+    font-family:  "Fixedsys", sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+  }
   /* ---------------btn---------------------------- */
   .downward{
     margin-top: 90px; 
@@ -298,6 +322,34 @@ body{
   }
   .right_word{
     margin-top: 100px;
+  }
+  .about_me{
+    margin-top: 80px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+  }
+  .about{
+    width: 320px;
+    font-size: 20px;
+    margin-top: 80px;
+    text-align: center;
+  }
+  .about h1{
+    line-height: 80px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #221d66;
+  }
+  .about p{
+    font-family:  "Fixedsys", sans-serif;
+    line-height: 30px;
+    font-size: 16px;
+  }
+  .wrapper{
+    max-width: 0 auto;
+    margin-top: 300px;
   }
   .diamond-container {
     max-width: 314px;
