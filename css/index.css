@@ -323,6 +323,13 @@ body{
   .right_word{
     margin-top: 100px;
   }
+  .right_word h1{
+    font-family: 'Palatino', 'URW Palladio L', serif;
+    font-size: 27px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #221d66;
+  }
   .about_me{
     margin-top: 80px;
     width: 100%;
