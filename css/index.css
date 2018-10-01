@@ -284,6 +284,15 @@ body{
   .word,.word2{
     display: none;
   }
+  .page_top{
+    position: fixed;
+    z-index: 3;
+    top: 580px;
+    right: 5px;
+    font-size: 6px;
+    display: block;  
+    font-family:  "Fixedsys", sans-serif;
+  }
   .wrapper{
     max-width: 0 auto;
     margin-top: 150px;
@@ -351,13 +360,21 @@ body{
     }
     .word2{
       position: absolute;
-      z-index: 3;
+      z-index: 5;
       top: 0;
       right: 60px;
       width: 1px;
       height: 250px;
       display: block;
       border-right: 1px solid #140f61a2;   
+  }
+  .page_top{
+    position: fixed;
+    z-index: 3;
+    top: 630px;
+    right: 50px;
+    display: block;  
+    font-family:  "Fixedsys", sans-serif;
   }
 .right_word{
    display: flex;

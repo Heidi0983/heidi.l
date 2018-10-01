@@ -31,7 +31,7 @@ a {
 -------------------------------- */
 .cd-auto-hide-header {
   position: fixed;
-  z-index: 2;
+  z-index: 5;
   height: 60px;
   top: 0;
   left: 0;
