@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: #fff9f8;
+  background: #fff8f8;
   font-family: 'Palatino', 'URW Palladio L', serif;
 font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
@@ -45,7 +45,7 @@ a {
   transition: -webkit-transform .5s;
   transition: transform .5s;
   transition: transform .5s, -webkit-transform .5s;
-  background: #fff9f8;
+  background: #fff8f8;
 }
 .cd-auto-hide-header::after {
   clear: both;
@@ -175,7 +175,7 @@ a {
   top: 60px;
   left: 0;
   width: 100%;
-  background-color: #fffcf9;
+  background-color: #221d66;
   display: none;
 }
 .cd-primary-nav > ul a {
@@ -184,11 +184,12 @@ a {
   height: 90px;
   line-height: 80px;
   text-align: center;
+  color: #fff8f8;
   font-size: 2.5rem;
   
 }
 .cd-primary-nav > ul a:hover, .cd-primary-nav > ul a.active {
-  color: #221d66;
+  color: #fff8f8;
   opacity: 0.6;
 }
 @media only screen and (min-width: 1024px) {
@@ -226,8 +227,13 @@ a {
     height: auto;
     line-height: normal;
    padding: 0;
+   color: #221d66;
     font-size: 20px;
     border: none;
+  }
+  .cd-primary-nav > ul a:hover, .cd-primary-nav > ul a.active {
+    color: #221d66;
+    opacity: 0.6;
   }
 }
 
