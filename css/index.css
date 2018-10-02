@@ -254,6 +254,14 @@ body{
     line-height: 65px;
     font-weight: bold;
   }
+  .page_top{
+    position: fixed;
+    z-index: 3;
+    top: 630px;
+    right: 0px;
+    display: block;  
+    font-family:  "Fixedsys", sans-serif;
+  }
   .diamond-container {
     max-width: 501px;
     height: 1100px;
@@ -311,7 +319,7 @@ body{
   .page_top{
     position: fixed;
     z-index: 3;
-    top: 580px;
+    top: 500px;
     right: 5px;
     display: block;  
     font-family:  "Fixedsys", sans-serif;
