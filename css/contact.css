@@ -24,6 +24,16 @@
      font-family: 'Palatino', 'URW Palladio L', serif;
         color:#221d66;
     }
+    .word2{
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        right: 60px;
+        width: 1px;
+        height: 250px;
+        display: block;
+        border-right: 1px solid #140f61a2;   
+    }
 /* -------------------------------- */
  @media only screen and (max-width:1024px) {
 .contact{
@@ -38,5 +48,8 @@
 .contact h1{
     font-size: 25px;
     
+}
+.word2{
+    display: none;
 }
  }
