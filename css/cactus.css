@@ -77,6 +77,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
 .product h1{
     display: flex;
     justify-content: center;
+    font-size: 25px;
 }
 .flex,.flex2{
     display: flex;
@@ -106,14 +107,52 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
 .maker{
     display: flex;
     justify-content: center;
-    clip-path: polygon(28% 14%, 100% 18%, 100% 67%, 70% 71%, 0 68%, 0 18%);
-  height: 1200px;
+    clip-path: polygon(21% 0, 100% 4%, 100% 96%, 70% 100%, 0 96%, 0 4%);
+  height: 1000px;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+1,cfe2d6+100 */
 background: rgb(247,247,247); /* Old browsers */
 background: -moz-linear-gradient(-45deg, rgba(247,247,247,1) 1%, rgba(207,226,214,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(-45deg, rgba(247,247,247,1) 1%,rgba(207,226,214,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(135deg, rgba(247,247,247,1) 1%,rgba(207,226,214,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#cfe2d6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.maker h1{
+    font-size: 25px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.maker_img{
+    float: left;
+    margin-top: 150px;
+}
+/* -----------------contact-------------------------------- */
+.contact{
+    width: 100%;
+    height: 500px;
+}
+.contact h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 25px;
+}
+.contact p{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+footer{
+    width: 100%;
+    height: 30px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 100;
 }
 /* -------------------rwd------------------------------- */
   @media only screen and (max-width: 825px) {
@@ -154,6 +193,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
         margin: 0 auto;
         font-size: 14px;
         line-height: 25px;
+      }
+    .product{
+      margin-top: 100px;
       }
     .luxy-el{
         width: 320px;
