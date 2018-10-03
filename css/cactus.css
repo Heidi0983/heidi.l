@@ -7,15 +7,19 @@
   body{
       background: #fdfcfa;
       color: rgb(58, 82, 74);
+      font-family: "微軟正黑體";
   }
   
  header{
+     position: absolute;
+     z-index: -2;
       width: 100vw;
     height: 800px;
+    background: #fdfcfa;
   }
   .back{
       position: absolute;
-      z-index: -10;
+      z-index: -3;
       width: 100vw;
       height: 500px;
       background: rgb(224, 241, 230);
@@ -50,6 +54,31 @@
       margin: 18px;
       color: rgb(58, 82, 74);
       font-size: 19px;
+  }
+  .page_top :hover{
+      cursor: pointer;
+      -webkit-filter: brightness(1.1);
+  }
+  .page_top{
+      position: fixed;
+      z-index:-6;
+      width: 180px;
+      height: 60px;
+      background: #ffffff;
+      right: 0;
+      float: right;
+      top: 500px;
+  }
+  .page_top img{
+      width: 150px;
+      margin-top: 15px;
+      margin-left: 5px;
+  }
+  .wrapper{
+      position: absolute;
+      z-index: -10;
+      width: 100%;
+      top: 800px;
   }
   /* ---------------about------------------------------- */
   .bg{
@@ -105,10 +134,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
 }
 /* ----------------maker--------------------------- */
 .maker{
-    display: flex;
-    justify-content: center;
+    width: 100%;
     clip-path: polygon(21% 0, 100% 4%, 100% 96%, 70% 100%, 0 96%, 0 4%);
-  height: 1000px;
+  height: 1300px;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+1,cfe2d6+100 */
 background: rgb(247,247,247); /* Old browsers */
 background: -moz-linear-gradient(-45deg, rgba(247,247,247,1) 1%, rgba(207,226,214,1) 100%); /* FF3.6-15 */
@@ -116,15 +144,26 @@ background: -webkit-linear-gradient(-45deg, rgba(247,247,247,1) 1%,rgba(207,226,
 background: linear-gradient(135deg, rgba(247,247,247,1) 1%,rgba(207,226,214,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#cfe2d6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-.maker h1{
-    font-size: 25px;
-    margin-top: 100px;
+.maker_word{  
     display: flex;
     justify-content: center;
 }
-.maker_img{
-    float: left;
+.maker_word h1{
+    font-size: 25px;
+    margin-top: 100px;
+}
+.card1,.card2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
     margin-top: 150px;
+}
+.maker_img{
+    width: 400px;
+}
+.word3{
+    width: 400px;
+    margin-top: 100px;
 }
 /* -----------------contact-------------------------------- */
 .contact{
@@ -222,5 +261,24 @@ footer p{
         width: 320px;
         margin: 0 auto;
         margin-top: 0;
+    }
+    .maker{
+        height: 1600px;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+    }
+    .card2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .maker_img{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .word3{
+        width: 320px;
+       margin: 0 auto;
     }
   }
