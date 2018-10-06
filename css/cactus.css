@@ -119,6 +119,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
     width: 400px;
     margin-top: 30px;
 }
+.word2 h2,.word3 h2{
+    font-size: 20px;
+}
+.word2 p,.word3 p{
+    font-size: 14px;
+}
 .luxy-el{
     width: 400px;
     margin-right: 80px;
@@ -164,6 +170,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', end
 .word3{
     width: 400px;
     margin-top: 100px;
+    margin-right: 50px;
 }
 /* -----------------contact-------------------------------- */
 .contact{
@@ -280,5 +287,9 @@ footer p{
     .word3{
         width: 320px;
        margin: 0 auto;
+       margin-right:0;
+    }
+    .aa,.bb{
+        margin: 0 auto;
     }
   }
