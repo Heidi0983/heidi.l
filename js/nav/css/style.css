@@ -9,11 +9,11 @@ Primary style
 
 html {
   font-size: 62.5%;
-}
+}s
 
 body {
-  background: #fff8f8;
-  font-family: 'Palatino', 'URW Palladio L', serif;
+  background: #e8dccb;
+  font-family: 'Palatino', 'URW Palladio L','Microsoft JhengHei', serif;
 font-size: 62.5%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,7 +36,6 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background: #fff8f8;
   /* Force Hardware Acceleration */
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
@@ -60,10 +59,10 @@ a {
 @media only screen and (min-width: 1024px) {
 
   .cd-auto-hide-header {
-    height: 180px;
+    height: 80px;
     top: 0;
     position: fixed;
-    background: transparent;
+    background: #e8dccb;
   }
   .cd-auto-hide-header .logo,
 .cd-primary-nav{
@@ -190,6 +189,7 @@ a {
   color: #fff8f8;
   font-size: 2rem;
   font-family:  "Fixedsys", sans-serif;
+  text-decoration: none;
 }
 .cd-primary-nav > ul a:hover, .cd-primary-nav > ul a.active {
   color: #fff8f8;
