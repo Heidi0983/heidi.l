@@ -19,7 +19,7 @@
       font-family:"Fixedsys",sans-serif;
       color: rgb(219, 138, 138);
     }
- .contact h1{
+ .contact h2{
      font-size: 40px;
      font-family: 'Palatino', 'URW Palladio L', serif;
         color:#221d66;
@@ -45,11 +45,8 @@
 .contact p{
     font-size: 15px;
 }
-.contact h1{
+.contact h2{
     font-size: 25px;
     
-}
-.word2{
-    display: none;
 }
  }
