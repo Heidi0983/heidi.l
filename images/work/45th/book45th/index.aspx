@@ -1,0 +1,421 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.english4u.net/edm/amc45th/index.aspx">
+    <meta property="og:site_name" content="AMC空中美語" />
+    <meta property="og:title" content="空中美語書城周年慶，限量史努比周邊滿額贈" />
+    <meta property="og:description"
+        content="空中美語歡慶 45 周年！5/1 至 10/31，到網路書城消費滿1500 元，即可獲得限量史努比周邊，新入會員再加贈 300 元紅利金！還有更多優惠，快來一探究竟！" />
+    <meta property="og:image" content="https://www.english4u.net/edm/amc45th/1280x720.jpg" />
+
+    <meta name="description"
+        content="空中美語歡慶 45 周年！5/1 至 10/31，到網路書城消費滿1500 元，即可獲得限量史努比周邊，新入會員再加贈 300 元紅利金！還有更多優惠，快來一探究竟！">
+
+    <title>空中美語書城周年慶，限量史努比周邊滿額贈 - AMC空中美語</title>
+    <link rel="canonical" title="空中美語書城周年慶，限量史努比周邊滿額贈" href="https://www.english4u.net/edm/amc45th/index.aspx" />
+    <link rel="icon" href="./../../img/AMC_ICO_logo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./../../img/AMC_ICO_logo.png" type="image/x-icon" />
+
+    <!-- CSS Styles  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/glyphicon_font.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!--#include virtual ="../../HeadScript/headCodeScript.aspx"-->
+    <style>
+        img[src*="analytics"] {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!--#include virtual ="../../HeadScript/bodyCodeScript.aspx"-->
+    <!-- Start Header Section -->
+    <header>
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Mobile Display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="https://shop.english4u.net/" target="_blank"
+                        style="padding-top: 0px; padding-bottom: 7px;">
+                        <img width="auto" height="auto" src="img/logo.png" alt="空中美語網路書城" border="0">
+                    </a>
+                </div>
+
+                <!-- Navbar Content -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="asas">
+                            <a class="page-scroll" href="https://www.english4u.net/edm/amc45Anniversary/index.aspx"><img
+                                    src="img/team/home.png">回首頁</a>
+                        </li>
+                        <li class="asas">
+                            <a class="page-scroll"
+                                href="https://www.4kids.com.tw/edm/amc45th/index.aspx">兒童美語<br>報名即送</a>
+                        </li>
+                        <li class="asas">
+                            <a class="page-scroll"
+                                href="https://www.xn--fiqv34aqphd4v.com/web/edm/amc45th/OAD_eDM.aspx">空中家教<br>新入贈禮</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END Navbar Content -->
+            </div>
+        </nav>
+        </nav>
+
+    </header>
+    <!-- End Header Section -->
+    <!-- Start Content -->
+    <main id="content">
+
+        <!-- Start Intro Section -->
+        <section id="intro" class="section-intro">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="intro-text">
+                        <div class="container">
+                            <div class="main-title">
+                                <div>
+                                    <h1>TO THE INFINITE SPACE 空中美語45周年</h1>
+                                    <h2>5/1 -10/31 網路書城優惠開搶，消費滿1,500元即送史努比聯名周邊，新會員再加碼送紅利金</h2>
+                                </div>
+                                <div class="wow bounceIn animated h1_1"><img src="img/team/H1_1.png"
+                                        alt="TO THE INFINITE SPACE"></div>
+                                <div class="wow bounceIn animated h1_2"><img src="img/team/H1_2.png" alt="空中美語45周年">
+                                </div>
+                                <div class="wow zoomIn animated h2">
+                                    <img src="img/team/snoopy.png" alt="snoopy" class="imgbox1">
+                                    <img class="drop-shadow imgbox2" src="img/team/H2.png"
+                                        alt="5/1 -10/31 網路書城優惠開搶，消費滿1,500元即送史努比聯名周邊，新會員再加碼送紅利金">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Intro Section -->
+        <!-- Featurelinks -->
+        <section id="Featurelinks" class="bg-prizeB">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center" data-aos="fade-up">
+                        <h2 class="section-heading text01 text-yellow">
+                            <span class="text-yellow">太空小獵犬歡迎你的加入</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 text-center"><img src="img/team/snoopy_cup.png">
+                        <p><span class="limited">數量有限，每單限贈一組</span></p>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <p class="text-pink"><span class="bg-deepblue">周年慶書城滿額贈</span></p>
+                        <p class="text-white">活動期間（5/1-10/31）只要於空中美語網路書城消費，結帳金額滿 1500，即可獲得空中美語與史努比聯名的馬克杯套組！</p>
+                        <p class="text-pink"><span class="bg-deepblue">最佛紅利金新會員通通有</span></p>
+                        <p class="text-white">現在只要註冊成為空中美語網路書城的會員，就能獲得紅利金，最高可折 200 元，還有其他熱門品項限時優惠，千萬別錯過！</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--英文基礎 Section -->
+        <section id="ELearning" class="bg-prizeE">
+            <div class="pattern">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center" data-aos="fade-up">
+                            <h2 class="section-heading text01 text-yellow"><span class="text-white">英文基礎從小打起</h2>
+                        </div>
+                    </div>
+                    <div class="row box ufo">
+                        <div class="col-lg-4 col-md-6 mt-2">
+                            <div class="imgbox box01">
+                                <p class="section-heading bg-book">AR擴增實境<br>遊戲字彙書</p>
+                                <img class="drop-shadow" src="img/team/AR_book.jpg" alt="AR擴增實境遊戲字彙書"
+                                    title="AR擴增實境遊戲字彙書">
+                                <p class="headingS2 text-deepgray">必備1200字快速掌握</p>
+                                <p><span class="sale">特價$416</span><br><span class="line-through price">(原價$520)</span>
+                                </p>
+                                <a href="https://shop.english4u.net/products/my-first-words-in-english-via-ar-%E6%9B%B8cd"
+                                    target="_blank">馬上下訂</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-2">
+                            <div class="imgbox box01">
+                                <p class="section-heading bg-book">Phonics 1 全套<br>（需搭配點讀筆使用）</p>
+                                <img class="drop-shadow" src="img/team/phonics-1.jpg" alt="Phonics 1 全套"
+                                    title="Phonics 1 全套">
+                                <p class="headingS2 text-deepgray">自然發音一本就通</p>
+                                <p><span class="sale">特價$344</span><br><span class="line-through price">(原價$430)</span>
+                                </p>
+                                <a href="https://shop.english4u.net/products/phonics-1%E5%85%A8%E5%A5%97"
+                                    target="_blank">馬上下訂</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-2">
+                            <div class="imgbox box01 Woodstock">
+                                <p class="section-heading bg-book">Grammar<br>for Young Learners</p>
+                                <img class="drop-shadow" src="img/team/Grammar-1.jpg" alt="Grammar for Young Learners"
+                                    title="Grammar for Young Learners">
+                                <p class="headingS2 text-deepgray">英語邏輯自然內化 </p>
+                                <p><span class="sale">特價$240</span><br><span class="line-through price">(原價$300)</span>
+                                </p>
+                                <a href="https://shop.english4u.net/products/grammar-for-yung-learners-1-shu-yi-ce"
+                                    target="_blank">馬上下訂</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/row -->
+                </div><!-- /container -->
+            </div>
+        </section>
+
+
+        <!-- Intro Section -->
+        <section id="IconLinks" class="bg-prizeA">+：
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center" data-aos="fade-up">
+                        <h2 class="section-heading text01 text-yellow"><span class="text-white">雜誌訂閱限時優惠</h2>
+                    </div>
+                </div>
+                <div class="row box">
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="imgbox box01">
+                            <p class="section-heading bg-Aplus"><img src="img/team/aplus_english.png" alt="A+ English"
+                                    title="A+ English"><br>初學空中美語</p>
+                            <img class="drop-shadow" src="img/team/A+_magazine.jpg" alt="A+雜誌" title="A+雜誌">
+                            <p class="headingS2 text-Aplus">文化部第 41 次中小讀物獲選</p>
+                            <p><span class="sale">特價$1500</span><br><span class="line-through price">(原價$2,400)</span>
+                            </p>
+                            <a href="https://shop.english4u.net/products/10-aplus-english" target="_blank">馬上下訂</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="imgbox box02">
+                            <p class="section-heading bg-4U"><img src="img/team/4u_english.png" alt="活用English 4U"
+                                    title="活用English 4U"><br>活用空中美語</p>
+                            <img class="drop-shadow" src="img/team/4U_magazine.jpg" alt="4U雜誌" title="4U雜誌">
+                            <p class="headingS2 text-4U">108 課綱、素養教育對標</p>
+                            <p><span class="sale">特價$1500</span><br><span class="line-through price">(原價$2,400)</span>
+                            </p>
+                            <a href="https://shop.english4u.net/products/10-english-4u" target="_blank">馬上下訂</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="imgbox box03 blueplanet">
+                            <p class="section-heading bg-ED"><img src="img/team/ED_english.png" alt="實用English Digest"
+                                    title="實用English Digest"><br>實用空中美語</p>
+                            <img class="drop-shadow" src="img/team/ED_magazine.jpg" alt="ED雜誌" title="ED雜誌">
+                            <p class="headingS2 text-ED">進階英語、深度議題探討</p>
+                            <p><span class="sale">特價$1500</span><br><span class="line-through price">(原價$2,400)</span>
+                            </p>
+                            <a href="https://shop.english4u.net/products/10-english-digest" target="_blank">馬上下訂</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/row -->
+            </div><!-- /container -->
+        </section>
+
+        <!--會考學測衝刺 Section -->
+        <section id="ELearning" class="bg-prizeC pp">
+            <div class="pattern">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center" data-aos="fade-up">
+                            <h2 class="section-heading text01 text-yellow"><span class="text-white">會考學測衝刺必備</h2>
+                        </div>
+                    </div>
+                    <div class="row box">
+                        <div class="col-lg-4 col-md-6 mt-2">
+                            <div class="imgbox box01">
+                                <p class="section-heading bg-book">精熟主題式閱測<br>(題本+解答)</p>
+                                <img class="drop-shadow" src="img/team/Reading.jpg" alt="精熟主題式閱測" title="精熟主題式閱測">
+                                <p class="headingS2 text-deepgray">閱測制霸，會考 A++</p>
+                                <p><span class="sale">特價$248</span><br><span class="line-through price">(原價$310)</span>
+                                </p>
+                                <a href="https://shop.english4u.net/products/b-h201-12" target="_blank">馬上下訂</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-2">
+                            <div class="imgbox box01">
+                                <p class="section-heading bg-book">引導式學測翻譯與寫作技巧<br>(題本+解答)</p>
+                                <img class="drop-shadow" src="img/team/Writing_Guide.jpg" alt="引導式學測翻譯與寫作技巧"
+                                    title="引導式學測翻譯與寫作技巧">
+                                <p class="headingS2 text-deepgray">翻譯+寫作解題 Step by step</p>
+                                <p><span class="sale">特價$344</span><br><span class="line-through price">(原價$450)</span>
+                                </p>
+                                <a href="https://shop.english4u.net/products/b-c700-b" target="_blank">馬上下訂</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-2">
+                            <div class="imgbox box01">
+                                <p class="section-heading bg-book">混合題新兵訓練營題本<br>(含簡答附音檔 QR code)</p>
+                                <img class="drop-shadow" src="img/team/BootCamp.jpg" alt="混合題" title="混合題">
+                                <p class="headingS2 text-deepgray">打造英文核心素養九塊肌</p>
+                                <p><span class="sale">特價$240</span><br><span class="line-through price">(原價$300)</span>
+                                </p>
+                                <a href="https://shop.english4u.net/products/b-i303-1" target="_blank">馬上下訂</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/row -->
+                </div><!-- /container -->
+            </div>
+        </section>
+        <!--文化交流 X 多益前哨戰 Section -->
+        <section id="ELearning" class="bg-prizeD">
+            <div class="pattern">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center" data-aos="fade-up">
+                            <h2 class="section-heading text01 text-yellow"><span class="text-white">文化交流 X 多益前哨戰</h2>
+                        </div>
+                    </div>
+                    <div class="row box">
+                        <div class="col-lg-4 col-md-6 mt-2">
+                            <div class="imgbox box01">
+                                <p class="section-heading bg-book">ENGLISH FOR GLOBAL<br>COMMUNICATION</p>
+                                <img class="drop-shadow" src="img/team/ENGLISH_FOR_GLOBAL.jpg" alt="ENGLISH FOR GLOBAL"
+                                    title="ENGLISH FOR GLOBAL">
+                                <p class="headingS2 text-deepgray">多益備戰必備寶典</p>
+                                <p><span class="sale">特價$480</span><br><span class="line-through price">(原價$600)</span>
+                                </p>
+                                <a href="https://shop.english4u.net/products/workplace-english-7"
+                                    target="_blank">馬上下訂</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-2">
+                            <div class="imgbox box01">
+                                <p class="section-heading bg-book">EXPLORE TAIWAN<br>(學用書+EBOOK+別冊)</p>
+                                <img class="drop-shadow" src="img/team/EXPLORE_TAIWAN.jpg" alt="EXPLORE TAIWAN"
+                                    title="EXPLORE TAIWAN">
+                                <p class="headingS2 text-deepgray">越在地越國際，推廣台灣靠這本</p>
+                                <p><span class="sale">特價$400</span><br><span class="line-through price">(原價$500)</span>
+                                </p>
+                                <a href="https://shop.english4u.net/products/workplace-english-20210225172337"
+                                    target="_blank">馬上下訂</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-2">
+                            <div class="imgbox box01">
+                                <p class="section-heading bg-book">BUILD THE BRIDGE<br>(書+光碟)</p>
+                                <img class="drop-shadow" src="img/team/BUILD_THE_BRIDGE.jpg" alt="BUILD THE BRIDGE"
+                                    title="BUILD THE BRIDGE">
+                                <p class="headingS2 text-deepgray">跨文化交流閱讀訓練</p>
+                                <p><span class="sale">特價$400</span><br><span class="line-through price">(原價$500)</span>
+                                </p>
+                                <a href="https://shop.english4u.net/products/workplace-english-6"
+                                    target="_blank">馬上下訂</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/row -->
+                </div><!-- /container -->
+            </div>
+        </section>
+
+    </main>
+    <!-- End Content -->
+    <section id="copyright">
+        <div class="text-center">
+            <div><img src="img/copyright.png" alt="© 2024 Peanuts Worldwide LLC"></div>
+        </div>
+    </section>
+    <!-- Start Footer Section -->
+    <footer>
+        <div class="logo_AMC_foot">
+            <a href="https://www.english4u.net/" target="_blank">
+                <img id="AMC_foot" src="img/www.png" alt="空中美語空中家教" title="空中美語空中家教" border="0"></a>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+
+    <!-- Go To Top Link -->
+    <a href="#" class="back-go-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+
+    <!-- JS  -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/aos.js"></script>
+
+    <input type="hidden" id="SchoolDataList" value="https://e-learning.4kids.com.tw/School/SchoolDataList" />
+    <script src="showSchool/ShowSchool.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            AOS.init({
+                duration: 1000,
+                easing: 'ease-in-out-sine'
+            });
+        });
+
+
+        var tabIndex = 0;
+        function changeTab(index) {
+            tabIndex = index;
+            $(".owl-dot").removeClass("ycolor");
+            $("#btn" + tabIndex).addClass("ycolor")
+            $("#btn" + tabIndex).focus();
+
+        }
+
+        $(document).ready(function () {
+
+            $("#btn0").addClass("ycolor")
+
+            $(".owl-prev").click(function () {
+                tabIndex--;
+                if (tabIndex < 0) {
+                    tabIndex = 4;
+                }
+
+                $(".owl-dot").removeClass("ycolor");
+                $("#btn" + tabIndex).addClass("ycolor")
+
+            });
+            $(".owl-next").click(function () {
+                tabIndex++;
+                if (tabIndex > 4) {
+                    tabIndex = 0;
+                }
+
+                $(".owl-dot").removeClass("ycolor");
+                $("#btn" + tabIndex).addClass("ycolor")
+            });
+
+
+
+
+        });
+
+    </script>
+</body>
+
+</html>
