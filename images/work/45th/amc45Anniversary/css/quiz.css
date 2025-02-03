@@ -1,0 +1,377 @@
+section#QALinks .bg {
+	background: #02184e url(../img/team/bg-A.png)center top no-repeat;
+	background-size: 100%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+@media screen and (max-width: 1500px) {
+	section#QALinks .bg {
+		background-size: 130%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	section#QALinks .bg {
+		background-size: 128%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	section#QALinks .bg {
+		background-size: 138%;
+		padding-bottom: 8%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	section#QALinks .bg {
+		background-size: 150%;
+		padding-bottom: 4%;
+	}
+}
+
+section#QALinks .box {
+	padding: 15px 15px 30px 15px;
+	position: relative;
+	/* background: #221e1f;
+	border: 10px solid #49494b; */
+	background: #061234;
+	border: 5px solid #39afff;
+	box-shadow: 0px 0px 7px #34b8ff;
+	border-radius: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	height: 705px;
+}
+
+@media screen and (max-width: 630px) {
+	section#QALinks .box {
+		height: 750px;
+	}
+}
+
+@media screen and (max-width: 555px) {
+	section#QALinks .box {
+		height: auto;
+	}
+}
+
+section#QALinks .Quiz {
+	display: block;
+	text-align: center;
+	color: #dcece5;
+}
+
+section#QALinks .btn-a {
+	font-size: 2.5rem;
+}
+
+section#QALinks .btn-b {
+	background: #00979b;
+	box-shadow: 0px 4px 0px #0b4e50;
+	font-size: 2.5rem;
+
+}
+
+section#QALinks .btn-b:hover,
+section#QALinks .btn-b:focus {
+	box-shadow: 0px 2px 0px#0b4e50;
+}
+
+section#QALinks .btn-fb {
+	background: #0866ff;
+	box-shadow: 0px 4px 0px #063279;
+	font-size: 2.5rem;
+}
+
+section#QALinks .btn-fb img {
+	border: none !important;
+}
+
+section#QALinks .btn-fb:hover,
+section#QALinks .btn-fb:focus {
+	box-shadow: 0px 2px 0px #063279;
+}
+
+section#QALinks .d-none {
+	display: none;
+}
+
+section#QALinks .wood {
+	position: absolute;
+	z-index: 3;
+	bottom: 3%;
+	right: 20%;
+}
+
+@media screen and (max-width: 1500px) {
+	section#QALinks .wood {
+		right: 10%;
+		bottom: 6%;
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	section#QALinks .wood {
+		right: 5%;
+		bottom: 6%;
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	section#QALinks .wood {
+		right: 6%;
+		bottom: 0%;
+		width: 280px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	section#QALinks .wood {
+		right: 10%;
+		bottom: 3%;
+		width: 260px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	section#QALinks .wood {
+		right: 7%;
+		bottom: 2%;
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	section#QALinks .wood {
+		right: 15%;
+		bottom: 1%;
+		width: 220px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	section#QALinks .wood {
+		position: relative;
+		bottom: 0;
+		right: 0;
+		margin: 0px auto;
+		display: flex;
+		width: 220px;
+		margin-top: -36px;
+	}
+}
+
+section#QALinks .Quiz h3 {
+	font-size: 22px;
+	text-transform: none;
+}
+
+section#QALinks .Quiz .d-flex img {
+	border: 3px solid #fff;
+	border-radius: 5px;
+}
+
+section#QALinks #Q5 .d-flex img {
+	border: none !important;
+}
+
+section#QALinks .Quiz h3 span.ans {
+	color: #80ffc4;
+	font-weight: bold;
+	font-size: 28px;
+	border: 2px solid;
+	border-radius: 8px;
+	padding: 8px 12px;
+}
+
+@media screen and (max-width: 991px) {
+	section#QALinks .Quiz h3 {
+		font-size: 20px;
+	}
+
+	section#QALinks .Quiz img {
+		width: 250px;
+	}
+
+	section#QALinks #Q5 img {
+		width: 142px;
+		margin-top: 15px;
+	}
+
+	section#QALinks #Q6 img {
+		width: auto;
+	}
+
+	section#QALinks #coupon img {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	section#QALinks #Q4 .d-flex h3 {
+		font-size: 17px;
+	}
+
+	section#QALinks .Quiz h3 {
+		font-size: 18px;
+	}
+
+	section#QALinks .Quiz img {
+		width: 200px;
+	}
+}
+
+section#QALinks .Quiz .num {
+	background: #ffdd44;
+	padding: 1px 8px;
+	color: #041f5e;
+	margin-right: 8px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+section#QALinks .Quiz .text_link {
+	font-size: 24px;
+	color: #ffdd44;
+}
+
+section#QALinks .Quiz .text_link:hover,
+section#QALinks .Quiz .text_link:focus {
+	color: #3efa9c;
+}
+
+section#QALinks .d-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section#QALinks #coupon .d-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+	section#QALinks #coupon .d-flex {
+		padding-bottom: 30px;
+	}
+
+	section#QALinks .Quiz .text_link {
+		font-size: 20px;
+	}
+}
+
+section#QALinks .d-flex h3 {
+	padding: 0 15px 0 0;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	section#QALinks .d-flex h3 {
+		margin-bottom: 5px;
+	}
+}
+
+section#QALinks #Q3 h3 img {
+	width: 250px;
+	margin: auto;
+	display: flex;
+}
+
+@media screen and (max-width: 991px) {
+	section#QALinks #Q3 h3 img {
+		width: 205px;
+	}
+}
+
+section#QALinks #A5 img,
+section#QALinks #Q6 img {
+	margin-top: 20px;
+	border: 1px solid #dee2e6;
+	border-radius: 10px;
+}
+
+section#QALinks #A5 .sm {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-left: 15px;
+}
+
+section#QALinks #Q6 .sm {
+	font-size: 20px;
+	line-height: 1.8;
+}
+
+section#QALinks .Quiz h3.text-coupon {
+	font-size: 30px;
+	line-height: 58px;
+	font-weight: bold;
+	color: #76ffff;
+}
+
+section#QALinks #coupon .copy {
+	font-size: 22px;
+	color: #76ffff;
+	border: 1px solid;
+	padding: 3px 8px;
+	border-radius: 8px;
+	margin-top: 10px;
+}
+
+section#QALinks #coupon .copy:hover,
+section#QALinks #coupon .copy:focus {
+	color: #2dd1d1;
+}
+
+section#QALinks #coupon .fb {
+	margin-top: -5px;
+}
+
+@media screen and (max-width:768px) {
+	.modal-title {
+		text-align: center;
+		font-size: 22px;
+	}
+
+	.modal-body iframe {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:480px) {
+
+	.modal-body iframe {
+		width: 100%;
+		height: 280px;
+	}
+}
+
+/* 題目進度 */
+section#QALinks .Qnum {
+	position: absolute;
+	margin-top: -13px;
+	float: right;
+	right: -15px;
+}
+
+section#QALinks .Qnum span {
+	font-size: 20px;
+	background: #39afff;
+	font-weight: bold;
+	color: #eaf7ff;
+	padding: 5px 10px 5px 18px;
+	border-radius: 0 5px 0 37px;
+}
+
+@media screen and (max-width:768px) {
+	section#QALinks .text-left {
+		padding-top: 20px;
+	}
+
+}

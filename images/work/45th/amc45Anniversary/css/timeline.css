@@ -1,0 +1,379 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+/* .timelinebox
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timelinebox {
+  width: 90%;
+  margin: 0 auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.timeline .range {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .timelinebox {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .timelinebox {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline {
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.timeline ol {
+  font-size: 0;
+  width: 100vw;
+  padding: 250px 0;
+  transition: all 1s;
+}
+
+.timeline ol li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  width: 160px;
+  height: 3px;
+  background: #fff;
+}
+
+.timeline ol li:last-child {
+  width: 280px;
+}
+
+.timeline ol li:not(:first-child) {
+  margin-left: 14px;
+}
+
+.timeline ol li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 1px);
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #ff76ce;
+}
+
+.timeline ol li.non:not(:last-child)::after {
+  content: none;
+}
+
+.timeline ol li.ml {
+  margin-left: 0;
+}
+
+.timeline ol li div {
+  position: absolute;
+  left: calc(100% + 7px);
+  width: 280px;
+  padding: 15px;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  white-space: normal;
+  color: rgb(14, 14, 14);
+  background: white;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+  .timeline ol li div {
+    width: 250px;
+  }
+}
+
+.timeline ol li div::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ol li:nth-child(odd) div {
+  top: -16px;
+  transform: translateY(-100%);
+}
+
+.timeline ol li:nth-child(odd) div::before {
+  top: 100%;
+  margin-top: -7px;
+  border-width: 13px 15px 0 0;
+  border-color: white transparent transparent transparent;
+}
+
+.timeline ol li:nth-child(even) div {
+  top: calc(100% + 16px);
+}
+
+.timeline ol li:nth-child(even) div::before {
+  top: -7px;
+  border-width: 13px 0 0 15px;
+  border-color: transparent transparent transparent white;
+}
+
+.timeline time {
+  display: block;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 3px;
+  font-style: italic;
+  color: #1f95da;
+  font-family: 'Trebuchet MS';
+}
+
+/* TIMELINE ARROWS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline .arrows {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 10;
+  top: -275px;
+}
+
+.timeline .arrow {
+  font-size: 22px;
+  background-color: #ff76ce;
+  color: #021d5f;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.timeline .arrow:hover {
+  transform: scale(1.05);
+}
+
+.timeline .glyphicon {
+  display: flex;
+}
+
+.timeline .arrows .arrow__prev {
+  position: absolute;
+  left: 10px;
+}
+
+.timeline .arrows .arrow__next {
+  position: absolute;
+  right: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .timeline .arrows .arrow__prev {
+    left: 0px;
+  }
+
+  .timeline .arrows .arrow__next {
+    right: 0px;
+  }
+}
+
+.timeline .disabled {
+  opacity: 0.5;
+}
+
+.timeline .disabled:hover {
+  transform: scale(1);
+}
+
+.timeline .arrows img {
+  width: 45px;
+  height: 45px;
+}
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 700px) {
+
+  .timeline ol,
+  .timeline ol li {
+    width: auto;
+  }
+
+  .timeline ol {
+    padding: 0;
+    transform: none !important;
+  }
+
+  .timeline ol li {
+    display: block;
+    height: auto;
+    background: transparent;
+  }
+
+  .timeline ol li:first-child {
+    margin-top: 25px;
+  }
+
+  .timeline ol li:not(:first-child) {
+    margin-left: auto;
+  }
+
+  .timeline ol li div {
+    position: static;
+    width: 94%;
+    height: auto !important;
+    margin: 0 auto 25px;
+  }
+
+  .timeline ol li:nth-child(odd) div {
+    transform: none;
+  }
+
+  .timeline ol li:nth-child(odd) div::before,
+  .timeline ol li:nth-child(even) div::before {
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: none;
+    border-left: 1px solid white;
+    height: 25px;
+  }
+
+  .timeline ol li:last-child,
+  .timeline ol li:nth-last-child(2) div::before,
+  .timeline ol li:not(:last-child)::after,
+  .timeline .arrows {
+    display: none;
+  }
+}
+
+/* FOOTER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: black;
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.page-footer a {
+  display: flex;
+  margin-left: 4px;
+}
+
+/* picture */
+.timeline ol li.snoopy::before {
+  content: '';
+  background-image: url(../img/team/snoopy-w.png);
+  background-size: 152px 140px;
+  width: 152px;
+  height: 140px;
+  position: absolute;
+  bottom: 0%;
+}
+
+.timeline ol li .rocket::after {
+  content: '';
+  background-image: url(../img/team/rocket.png);
+  background-size: 60px 60px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: -20%;
+  right: 5%;
+}
+
+.timeline ol li .orgplanet::after {
+  content: '';
+  background-image: url(../img/team/orgplanet.png);
+  background-size: 45px 45px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  bottom: -12%;
+  left: 22%;
+}
+
+.timeline ol li .blueplanet::after {
+  content: '';
+  background-image: url(../img/team/blueplanet.png);
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -16%;
+  left: 25%;
+}
+
+.timeline ol li .astro::after {
+  content: '';
+  background-image: url(../img/team/astronaut.png);
+  background-size: 55px 55px;
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  bottom: -18%;
+  left: 55%;
+}
+
+.timeline ol li .ufo::after {
+  content: '';
+  background-image: url(../img/team/ufo.png);
+  background-size: 52px 52px;
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  bottom: -8%;
+  right: -14%;
+}
+
+@media screen and (max-width: 700px) {
+  .timeline ol li.snoopy::before {
+    display: none;
+  }
+
+  .timeline ol li .orgplanet::after {
+    left: 60%;
+    bottom: -10%;
+  }
+
+  .timeline ol li .ufo::after {
+    right: 5%;
+    top: -12%;
+  }
+}
