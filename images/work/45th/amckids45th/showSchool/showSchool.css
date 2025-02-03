@@ -1,0 +1,158 @@
+﻿.showSchool-areaB{
+    width: 75px;
+    float:left;
+	margin-top: 8px;
+	margin-left: -4px;
+    color: #686868;
+}
+/* 資料 */
+.showSchool-dataField{
+    width: calc(100% - 75px);
+    float: right;
+	margin-top: 8px;
+	/*min-height: 45px;*/
+    line-height: 1.25;
+}
+
+/* 分校名 */
+.showSchool-title{
+    width: calc((100% - 75px)/2);
+    float:left;
+    text-align:center;
+    display: flex;
+}
+font.showSchool-title{
+    font-size: 110%;
+    font-weight: bold;
+}
+
+/*課程小圖*/
+.showSchool-icon {
+	margin-top:-4px;
+	margin-left:7px;
+    padding:1px 2px;
+	width: 204px;
+    border-radius: 16px;
+    text-align: left;
+    background-color: rgba(0,0,0,0.05);
+}
+/*電話*/
+.showSchool-phone{
+	min-width: 120px;
+    float:left;
+    text-align:center;
+}
+/*地址*/
+.showSchool-address{
+    width: calc((100% - 75px)/2 - 96px);
+    float:left;
+    text-align:left;
+	margin-bottom:12px;
+}
+/*Facebook & GoogleMap*/
+.showSchool-fb, .showSchool-gmap{
+    width: 36px;
+    float:right;
+	margin-top:-5px;
+}
+    /*區域A table縣市*/
+    #showSchoolDiv > .table > thead > tr > th {
+        font-size: 115%;
+    }
+
+@media (min-width: 992px) {
+    .showSchool-areaB{ width:12%; }
+     
+    /* 資料 */
+    .showSchool-dataField{ width:calc(100% - 12%); }
+    
+    /* 分校名 */
+    .showSchool-title{ width:calc((100% - 12%)/2); }
+    
+    /*地址*/
+    .showSchool-address{ width:calc((100% - 12%)/2 - 96px); }
+}
+
+/* 手機版 */
+@media (max-width: 992px) {
+
+    /* 分校名 */
+    .showSchool-title{
+        width: 325px;
+        float:left;
+        text-align:left;
+    }
+     
+    /*電話*/
+    .showSchool-phone{
+        float:left;
+        text-align:left;
+    }
+    /*地址*/
+    .showSchool-address{
+        width: calc(100% - 400px);
+        float:left;
+        text-align:left;
+    }
+    /*區域A*/
+    .nav-tabs>li {
+        width:50%;
+    }
+}
+@media (max-width: 768px) {
+
+    /* 分校名 */
+    .showSchool-title{
+        width: 100%;
+        margin-bottom:8px;
+    }
+     
+    /*電話*/
+    .showSchool-phone{
+        float:left;
+        text-align:left;
+    }
+    /*地址*/
+    .showSchool-address{
+        width: calc(100% - 75px);
+        float:left;
+        text-align:left;
+    }
+
+    /*Facebook & GoogleMap*/
+    .showSchool-fb, .showSchool-gmap{
+        margin-top:-18px;
+    }
+    /*區域A*/
+    .nav-tabs>li {
+        width:50%;
+    }
+}
+@media screen and (max-width: 478px) {
+
+    /* 分校名 */
+    .showSchool-title{
+        width: 100%;
+        margin-bottom:8px;
+        display: block;
+    }
+
+    /*課程小圖*/
+    .showSchool-icon {
+        width: 100%;
+        margin-top:2px;
+        margin-left:-2px;
+        display: block;
+    }
+
+    /*地址*/
+    .showSchool-address{
+        width: calc(100% - 75px);
+        float:left;
+        text-align:left;
+    }
+    /*Facebook & GoogleMap*/
+    .showSchool-fb, .showSchool-gmap{
+        margin-top:-5px;
+    }
+}
