@@ -1,0 +1,402 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.english4u.net/edm/20221011_KidsAppPublic/index.aspx">
+<meta property="og:site_name" content="AMC空中美語" />
+<meta property="og:title" content="「寶貝單字王」用 AI 陪孩子練好英文口說發音"/>
+<meta property="og:description" content="搭載 AI智慧評分引擎，內建兒童專門大數據語料庫，能精準分析小朋友的口說發音是否準確、即時運算評分，讓您能清楚掌握孩子的學習進度，幫助小朋友輕鬆學習英語發音！"/>
+<meta property="og:image" content="https://www.english4u.net/edm/20221011_KidsAppPublic/1280x720.jpg" />
+
+<meta name="description" content="專為K-12歲孩子設計的單字學習APP「寶貝單字王」，搭載 AI智慧語音評分引擎能精準分析小朋友的單字口說發音是否準確，並搭配大數據語料庫即時運算評分，讓您能清楚掌握孩子的學習進度！">
+<title>搭載 AI 智慧口語評分引擎，「寶貝單字王」讓孩子自信開口學英文 - 兒童美語 - AMC空中美語</title>
+<link rel="canonical" href="https://www.english4u.net/edm/20221011_KidsAppPublic/index.aspx" />
+<link rel="icon" href="./../../img/AMC_ICO_logo.png" type="image/x-icon" /><link rel="shortcut icon" href="./../../img/AMC_ICO_logo.png" type="image/x-icon" />
+
+
+  <!-- CSS Styles  -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/glyphicon_font.css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/aos.css">
+  <link rel="stylesheet" href="./css/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owlcarousel/owl.theme.default.min.css">
+
+
+<!--#include virtual ="../../HeadScript/headCodeScript.aspx"-->
+    <style>
+      .fixed-header .navbar-default .navbar-nav > li > a{
+        margin-top: -5px;
+      }
+    </style>
+</head>
+  <body>
+<!--#include virtual ="../../HeadScript/bodyCodeScript.aspx"-->
+      <!-- Start Content -->
+      <main id="content">
+    <!-- Start Header Section -->
+    <header>
+    <!-- Start  Logo & Naviagtion  -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Mobile Display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="https://www.english4u.net/" target="_blank" style="padding-top: 0px; padding-bottom: 7px;"><img width="auto" height="auto" src="img/logo.png" alt="AMC兒童美語" border="0"></a>
+            </div>
+
+            <!-- Navbar Content -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="asas">
+                        <a class="page-scroll" href="#IconLinks" style="padding-top: 25px; padding-bottom: 25px;">學習目標</a>
+                    </li>
+                    <li class="asas">
+                        <a class="page-scroll" href="#IntroE" style="padding-top: 25px; padding-bottom: 25px;">功能介紹</a>
+                    </li>
+                    <li class="asas">
+                      <a class="page-scroll" href="#Learnhistory" style="padding-top: 25px; padding-bottom: 25px;">學習歷程</a>
+                  </li>
+                    <li class="asas">
+                      <a class="page-scroll" href="#contact" style="padding-top: 25px; padding-bottom: 25px;">立即下載</a>
+                  </li>
+                </ul>
+            </div>
+            <!-- END Navbar Content -->
+        </div>
+    </nav>
+    </header>
+    <!-- End Header Section -->
+
+      <section id="intro" class="section-intro"> 
+				<div class="container-fluid">
+					<div class="row">
+						<div class="intro-text">
+                           <div class="intro-bg-lg"><img src="img/team/header-bg-lg.jpg" alt="空中美語Howdy GO APP" title="空中美語Howdy GO APP"></div>
+                           <div class="pb-1">
+                            <img class="icon_img drop-shadow" data-aos="fade-in" src="img/team/h1_logo.png" alt="寶貝單字王">
+                            <h1 class="wow animated" data-aos="fade-in" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">寶貝單字王APP上線囉</h1>
+                            <h2 class="text-green pb-1">讓 AI 陪孩子輕鬆練習英文口說</h2>
+                            <a class="btn-bg mt-2 fs-2" href="#exampleModal" data-toggle="modal" data-target="#exampleModal">立即下載</a>
+                         </div>            
+						</div>                         
+					</div> 
+          <div class="airplane col-lg-10">
+            <img class="bounce0" src="img/team/planet3.png" alt="飛機">
+          </div>
+          <div class="balloon col-lg-3">
+            <img class="" src="img/team/balloon.png" alt="熱氣球">
+          </div>
+				</div>
+		</section>
+		<!-- End Intro Section -->
+        
+    <!-- Intro Section -->
+     <section id="IconLinks" class="bg-prizeA pt-2">
+        <div class="container two">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading text01 text-blu" data-aos="fade-up"><span>空中美語獻給寶貝的禮物</span></h2>
+              </div>
+              
+              <!--/div-->  
+              <div class="col-lg-12 text-center">
+                <h3 class="section-heading wow fadeIn text-main b">寶貝單字王為空中美語所設計的基礎單字練習遊戲，非常適合K-12兒童使用，單字量約 1600 字，符合教育部國中小英語教育基本 1200 字彙。</h3>
+            </div>  
+      
+            </div><!-- /row -->
+        </div><!-- /container --> 
+    </section>
+   
+  <!-- 聽好的發音 說流利的英文 -->
+ <section id="Practice" class="bg-prizeB">
+    <div class="container two">
+        <div class="row">
+        <div class="col-lg-12 text-center" data-aos="fade-up">     
+            <h2 class="section-heading text01"><span class="text-blu">聽好的發音 說流利的英文</span></h2>
+          </div> 
+            <div class="nav col-lg-12">
+              <div class="features mt-1 col-lg-6 col-md-6 col-sm-6">
+                  <div class="fe-box pb-2">
+                    <img src="img/team/icon01.png" alt="全程美式真人語音" data-aos="fade-in">
+                    <h3 class="section-heading text-org pt-2 zoomIn wow animated text-center">全程美式真人語音</h3> 
+                    <p class="text-main section-heading3">所有單字及句子均由在地母語外師錄製真人美式發音。</p>
+                  </div>
+              </div>
+              <div class="features mt-1 col-lg-6 col-md-6 col-sm-6">
+                  <div class="fe-box pb-2">
+                    <img src="img/team/icon02.png" alt="開口說讓AI引擎幫你評分" data-aos="fade-in"> 
+                    <h3 class="section-heading text-org pt-2 zoomIn wow animated text-center">開口說讓 AI 智能幫你評分</h3> 
+                    <p class="text-main section-heading3">搭載AI 智慧引擎，結合大數據運算精準評分發音準確度，孩子不限次數練習無壓力，臨場實戰更自信！</p>
+                  </div>
+              </div>
+        </div>  
+        </div>
+    </div><!-- /container -->
+   
+</section> 
+
+<!--Learn English in a Fun Way Section --> 
+    <section id="speaking" class="bg-prizeD">   
+      <div class="arrowBox"><img src="img/team/line-top.png" alt="line-style2"></div>
+      <div class="bg-con">
+      <div class="container ">
+        <div class="col-lg-7 mt-6" style="padding: 0;"> 
+          <img class="d-flex rainbow" data-aos="fade-up" src="img/team/rainbow.png" alt="rainbow" style="margin: 0 auto;">
+          <h2 class="section-heading text-center" data-aos="fade-up"><span class="text-blu">Learn English in a Fun Way</span></h2>
+          <p class="section-heading2 text-center b text-main imgbox">四種模式提供寶貝更多元的練習刺激</p>
+         </div>
+          <div class="col-lg-5 text-center">
+              <img class="drop-shadow" src="img/team//09.png" alt="四種模式">
+          </div>
+          </div><!-- /container --> <a name="IntroE"></a>
+        </div> 
+       
+   </section>
+
+<!--四種模式 Section -->
+    <section id="ELearning" class="bg-prizeC">
+      <div class="bg-con">
+      <div class="container">
+        <div class="glyphBox" data-aos="fade-up-left"><img src="img/team/planet5.png" alt="green bird"></div>
+        <div class="row">  
+            <div class="col-lg-12 text-center" data-aos="fade-up">     
+            <h2 class="section-heading text01"><span class="text-blu">功能介紹</span></h2>
+          </div> 
+          <div class="col-lg-12 columns">
+            <div id="page_list" class="owl-dots text-center">
+              <div class="list_bg">
+              <button id="btn0" class="owl-dot active" data-slide-to="0" onclick="changeTab(0);"><h3>單字跟著念</h3></button>
+              <button id="btn1" class="owl-dot" data-slide-to="1" onclick="changeTab(1);"><h3>聽音選單字</h3></button>
+              <button id="btn2" class="owl-dot" data-slide-to="2" onclick="changeTab(2);"><h3>聽音拼單字</h3></button>
+              <button id="btn3" class="owl-dot" data-slide-to="3" onclick="changeTab(3);"><h3>聽句選答案</h3></button>
+            </div>
+            </div> 
+
+            <div class="owl-carousel owl-theme">
+              
+              <div class="item pt-2 active">
+                <div class="col-md-6"><img class="drop-shadow" src="img/team/screen1.png" alt="單字跟著念"></div>
+                <div class="col-md-5 mt-4">
+                  <div class="bg-deep mt-5">
+                  <h3 class="section-heading2 text-white"><span class="bg-deepblue">單字跟著念</span></h3>
+                <p class="text-main mt-1">跟著母語人士練發音，讓AI幫你用星星評分，還可以回聽自己的發音，隨時想練就練，很快就進步了。</p>
+              </div>
+            </div>
+              </div>
+
+              <div class="item pt-2">
+                <div class="col-md-6"><img class="drop-shadow" src="img/team/screen2.png" alt="聽音選單字"></div>
+                <div class="col-md-5 mt-4"> 
+                  <div class="bg-deep mt-5">
+                  <h3 class="section-heading2 text-white"><span class="bg-deepblue">聽音選單字</span></h3>
+                <p class="text-main mt-1">跟著外籍老師的聲音選出對應的單字，答案三選一，字首同字母，仔細聽才能選得對。</p>
+              </div>
+              </div>  
+              </div>
+
+              <div class="item pt-2">
+                <div class="col-md-6"><img class="drop-shadow" src="img/team/screen3.png" alt="聽音拼單字"></div>
+                <div class="col-md-5 mt-4"> 
+                  <div class="bg-deep mt-5">
+                  <h3 class="section-heading2 text-white"><span class="bg-deepblue">聽音拼單字</span></h3>
+                <p class="text-main mt-1">聽發音想一想是哪個單字，想清楚了嗎？那就在五個字母中選出兩個可以正確拼出單字的字母吧！</p>
+              </div>
+              </div> 
+              </div>
+
+              <div class="item pt-2">
+                <div class="col-md-6"><img class="drop-shadow" src="img/team/screen4.png" alt="聽句選答案"></div>
+                <div class="col-md-5 mt-4"> 
+                  <div class="bg-deep mt-5">
+                  <h3 class="section-heading2 text-white"><span class="bg-deepblue">聽句選答案</span></h3>
+              <p class="text-main mt-1">老師一次唸一整句，不過句子裡卻漏了一個字，來幫忙選出來吧！</p>
+              </div>
+              </div>
+              </div>
+
+            </div>
+            
+        </div>
+         </div><!--/row -->
+         <a name="Learnhistory"></a>
+      </div><!-- /container -->
+  </section>
+  
+<!-- 學習歷程 Section -->
+<section id="HowdyApp" class="bg-prizeE pt-2">
+  <div class="bg-E">
+  <div class="container">
+    <div class="glyphBox" data-aos="fade-up-right"><img src="img/team/planet4.png" alt="bird"></div>
+          <h2 class="section-heading text-center "  data-aos="fade-up"><span class="text-blu">學習歷程</span></h2> 
+          <div class="col-lg-1"></div>
+          <div class="col-lg-5 col-md-6 mt-4 row">
+              <p class="mb-3 pic01 text-main">APP記錄了所有學習紀錄，挑戰所有模式三星通關。每個字母都有多個關卡，每關10字左右，每天一關，很快就能學會所有基礎單字喔，設定目標，勇往前進！</p>
+          </div>
+          <div class="col-lg-6 col-md-6 columns mt-1">
+                <div class="text-center">
+                  <img class="drop-shadow" src="img/team/score.png" alt="學習歷程">
+                </div> 
+        </div>
+    </div><!-- /container -->
+  </div>
+</section>
+
+      <!-- contact Section -->
+     <section id="contact" class="bg-prizeF pt-2">
+      <div class="bg-F">
+        <div class="imgbox"><img class="bounce0" src="img/team/peter.png" alt="熱氣球"></div>
+        <div class="container">  
+            <div class="col-lg-3 col-md-3"></div>
+            <div class="col-lg-7 col-md-7 pb-2 text-center bg-white bor-white">
+              <h2 class="section-heading text-blu pt-2" data-aos="fade-up" >立即下載</h2>
+              <a href="https://www.4kids.com.tw/index.aspx#PublicKidsapp" title="立即下載 寶貝單字王" target="blank"><img class="imgapp" src="img/team/Publickids_app.jpg" alt="寶貝單字王"></a>
+              <div class="row">
+              <a class="btn btn-lg" href="https://apps.apple.com/br/app/%E5%AF%B6%E8%B2%9D%E5%96%AE%E5%AD%97%E7%8E%8B/id1620830453" type="button" target="_blank">IOS版本下載</a>
+              <a class="btn btn-lg" href="https://play.google.com/store/apps/details?id=tw.com.english4u.kidsapppublic" type="button" target="_blank">Android版本下載</a>
+              </div>
+              <p class="text-main">請用手機掃描QR Code，或點選前往下載。</p>
+            </div>
+        </div><!-- /container -->
+      </div>
+   
+    </section> 
+             
+    <!-- End Content -->
+
+    <!-- Start Footer Section -->
+    <footer>
+    <!-- footer -->
+    <div class="logo_AMC_foot">
+      <a href="https://www.english4u.net/" target="_blank">
+         <img id="AMC_foot" src="img/www.png" alt="AMC空中美語" title="AMC空中美語" border="0"></a>
+    </div>
+    </footer>
+    <!-- End Footer Section -->
+ </main>   <!-- End main-->
+   <!-- Modal Howdy Go APP-->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+        <h3 class="modal-title" id="exampleModalLabel">免費下載 寶貝單字王</h3>
+      </div>
+      <div class="modal-body">
+        <p>請用手機掃描QR Code，或點選前往下載。</p>
+        <div class="text-center">
+          <a href="https://www.4kids.com.tw/index.aspx#PublicKidsapp" title="立即下載 寶貝單字王" target="blank"><img src="img/team/Publickids_app.jpg" alt="寶貝單字王"></a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>  <!-- Modal END -->
+
+  <!-- Go To Top Link -->
+  <a href="#" class="back-go-top"><i class="glyphicon glyphicon-menu-up"></i></a>
+  
+  <!-- JS  -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script src="./js/aos.js"></script>
+      <script>
+          $(document).ready(function () {
+              
+
+              //WOW Scroll Spy
+              var wow = new WOW({
+                  //disabled for mobile
+                  mobile: true
+              });
+              wow.init();
+              
+              AOS.init({
+                  duration: 1000,
+                  easing: 'ease-in-out-sine'
+              });
+          });
+
+
+          var tabIndex = 0;
+          function changeTab(index) {
+              tabIndex = index;
+              $(".owl-dot").removeClass("ycolor");
+              $("#btn" + tabIndex).addClass("ycolor")
+              $("#btn" + tabIndex).focus();
+              
+          }
+
+          $(document).ready(function () {
+
+              $("#btn0").addClass("ycolor")
+
+              $(".owl-prev").click(function () {
+                  tabIndex--;
+                  if (tabIndex<0) {
+                      tabIndex = 3;
+                  }
+
+                  $(".owl-dot").removeClass("ycolor");
+                  $("#btn" + tabIndex).addClass("ycolor")
+                  
+              });
+              $(".owl-next").click(function () {
+                  tabIndex++;
+                  if (tabIndex > 3) {
+                      tabIndex = 0;
+                  }
+
+                  $(".owl-dot").removeClass("ycolor");
+                  $("#btn" + tabIndex).addClass("ycolor")
+              });
+
+              var docElem = document.documentElement, didScroll = false, changeHeaderOn = 100;
+              window.addEventListener('scroll', function () {
+                  if (!didScroll) {
+                      didScroll = true;
+                      setTimeout(scrollPage, 250);
+                  }
+              }, false);
+
+              function scrollPage() {
+                  var sy = scrollY();
+                  console.log("sy=" + sy + ",changeHeaderOn=" + changeHeaderOn + ",xxx=" + (sy >= changeHeaderOn ) );
+                  if (sy >= changeHeaderOn) {
+                      
+                      $("header").addClass("fixed-header");
+                  }
+                  else {
+                      $("header").removeClass("fixed-header");
+                  }
+                  didScroll = false;
+              }
+
+              function scrollY() {
+                  return window.pageYOffset || docElem.scrollTop;
+              }
+
+
+          });
+
+
+
+      </script>
+</body>
+</html>
